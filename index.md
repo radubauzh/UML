@@ -26,7 +26,7 @@ Unified Modeling Language, UML is not a method or process but the Univied Develo
   -	more tool support, more people understand your diagrams, less education needed 
 -	Is reasonably well-defined although there are interpretations and dialects 
 -	Is open
-  -	stereotypes, tags and constraints to extend basic ‣ constructs has a meta-meta-model for advanced extensions 
+  -	stereotypes, tags and constraints to extend basic -> constructs has a meta-meta-model for advanced extensions 
 
 
 ## UML Overview
