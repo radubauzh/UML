@@ -4,11 +4,11 @@
 2. Why UML?
 3. UML Overview
 4. Structure Diagrams
-4.1 Class Diagram
-4.2 Package Diagram
-4.3 Collaboration Diagram
-4.4 Deployment Diagram
-4.5 Component Diagram
+- Class Diagram
+- Package Diagram
+- Collaboration Diagram
+- Deployment Diagram
+- Component Diagram
 
 5. Dynamic Diagrams
 
