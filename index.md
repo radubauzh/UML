@@ -162,14 +162,14 @@ A transition is a response to an external event received by an object in a given
 ### Using UML – Perspectives
 Three perspectives in drawing UML diagrams 
 1.	Conceptual 
-  	a.	Represent domain concepts 
-  	b. 	ignore software issues 
+  	-	Represent domain concepts 
+  	- 	ignore software issues 
 2.	Specification
-  	a.	Focus on visible interfaces and behavior 
-  	b.	ignore internal implementation 
+  	-	Focus on visible interfaces and behavior 
+  	-	ignore internal implementation 
 3.	Implementation 
-  	a.	Document implementation choices 
-  	b.	Most common, but least useful (!) 
+  	-	Document implementation choices 
+  	-	Most common, but least useful (!) 
 
 
 
