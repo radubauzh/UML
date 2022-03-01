@@ -113,6 +113,75 @@ It captures the behavior of the protocol. The protocol state machine depicts the
 
 ![Image](state.png)
 
+## Statechart Diagrams
+
+###Notation
+-	A statechart diagram describes the temporal evolution of an object of a given class in response to interactions with other objects inside or outside the system 
+-	An event is a one-way (asynchronous) communication from one object to another
+  -	atomic (non-interruptible) 
+  -	includes events from hardware and real-world objects, e.g., message receipt, input event, elapsed time, etc.
+  -	notation: eventName(parameter: type, ...) 
+  -	may cause object to make a transition between states 
+-	A state is a period of time during which an object is waiting for an event to occur
+-	depicted as rounded box with (up to) three sections 
+  -	name – optional
+  -	state variables - name: type = value (valid only for that state)
+  -	triggered operations - internal transitions and ongoing operations 
+-	may be nested 
+
+### State Box with Regions 
+-	The entry event occurs whenever a transition is made into this state, and the exit operation is triggered when a transition is made out of this state
+-	The help and character events cause internal transitions with no change of state, so entry and exit operations are not performed 
+
+### Transiations
+A transition is a response to an external event received by an object in a given state 
+-	May invoke an operation, and cause the object to change state 
+-	May send an event to an external object 
+-	Transition syntax (each part is optional): event(arguments) [condition] / ^target.sendEvent operation(arguments) 
+-	External transitions label arcs between states 
+-	Internal transitions are part of the triggered operations of a state 
+
+### Operations and Activities 
+-	An operation is an atomic action invoked by a transition 
+-	Entry and exit operations can be associated with states 
+-	An activity is an ongoing operation that takes place while object is in a given state 
+-	Modeled as “internal transitions” labeled with the pseudo-event “do” 
+
+### Composite States 
+-	Composite states may be depicted either as high- 
+-	level or low-level views “Stubbed transitions” indicate the presence of internal states:
+  -	Internal and terminal substates are shown as black spots and “bulls-eyes” 
+
+### Branching and Merging 
+-	Entering concurrent substates
+  -	Entering a state with concurrent substates means that each of the substates is entered concurrently (one logical thread per substate) 
+-	Leaving concurrent substates
+  -	A labeled transition out of any of the substates terminates all of the substates 
+  -	An unlabeled transition out of the overall state waits for all the substates to terminate 
+
+### Using UML – Perspectives
+Three perspectives in drawing UML diagrams 
+1.	Conceptual 
+  a.	Represent domain concepts 
+  b. 	ignore software issues 
+2.	Specification
+  a.	Focus on visible interfaces and behavior 
+  b.	ignore internal implementation 
+3.	Implementation 
+  a.	Document implementation choices 
+  b.	Most common, but least useful (!) 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Disclaimer
