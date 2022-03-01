@@ -154,7 +154,7 @@ A transition is a response to an external event received by an object in a given
 
 ### Branching and Merging 
 -	Entering concurrent substates
-  - Entering a state with concurrent substates means that each of the substates is entered concurrently (one logical thread per substate) 
+	- Entering a state with concurrent substates means that each of the substates is entered concurrently (one logical thread per substate) 
 -	Leaving concurrent substates
   - A labeled transition out of any of the substates terminates all of the substates 
   - An unlabeled transition out of the overall state waits for all the substates to terminate 
