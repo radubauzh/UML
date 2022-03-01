@@ -11,6 +11,36 @@
 - Component Diagram
 
 5. Dynamic Diagrams
+- Use Case Diagram
+- Activity Diagram
+- Sequence Diagram
+- State Diagram
+
+## UML definition
+Unified Modeling Language, UML is not a method or process but the Univied Development is.
+
+## Why UML?
+•	Reduces risks by documenting assumptions
+  o	domain models, requirements, architecture, design, implementation, ... 
+•	Represents industry standard
+  o	more tool support, more people understand your diagrams, less education needed 
+•	Is reasonably well-defined although there are interpretations and dialects 
+•	Is open
+  o	stereotypes, tags and constraints to extend basic ‣ constructs has a meta-meta-model for advanced extensions 
+
+
+## UML Overview
+
+## Structure Diagrams
+
+
+
+
+
+
+
+
+
 
 ```markdown
 Syntax highlighted code block
