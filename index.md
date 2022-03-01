@@ -118,15 +118,15 @@ It captures the behavior of the protocol. The protocol state machine depicts the
 ### Notation
 -	A statechart diagram describes the temporal evolution of an object of a given class in response to interactions with other objects inside or outside the system 
 -	An event is a one-way (asynchronous) communication from one object to another
-  -	atomic (non-interruptible) 
-  -	includes events from hardware and real-world objects, e.g., message receipt, input event, elapsed time, etc.
-  -	notation: eventName(parameter: type, ...) 
-  -	may cause object to make a transition between states 
+  	-	atomic (non-interruptible) 
+  	-	includes events from hardware and real-world objects, e.g., message receipt, input event, elapsed time, etc.
+  	-	notation: eventName(parameter: type, ...) 
+  	-	may cause object to make a transition between states 
 -	A state is a period of time during which an object is waiting for an event to occur
 -	depicted as rounded box with (up to) three sections 
-  -	name – optional
-  -	state variables - name: type = value (valid only for that state)
-  -	triggered operations - internal transitions and ongoing operations 
+  	-	name – optional
+  	-	state variables - name: type = value (valid only for that state)
+  	-	triggered operations - internal transitions and ongoing operations 
 -	may be nested 
 
 ### State Box with Regions 
@@ -150,14 +150,14 @@ A transition is a response to an external event received by an object in a given
 ### Composite States 
 -	Composite states may be depicted either as high- 
 -	level or low-level views “Stubbed transitions” indicate the presence of internal states:
-  -	Internal and terminal substates are shown as black spots and “bulls-eyes” 
+  	-	Internal and terminal substates are shown as black spots and “bulls-eyes” 
 
 ### Branching and Merging 
 -	Entering concurrent substates
 	- Entering a state with concurrent substates means that each of the substates is entered concurrently (one logical thread per substate) 
 -	Leaving concurrent substates
-  - A labeled transition out of any of the substates terminates all of the substates 
-  - An unlabeled transition out of the overall state waits for all the substates to terminate 
+  	- A labeled transition out of any of the substates terminates all of the substates 
+  	- An unlabeled transition out of the overall state waits for all the substates to terminate 
 
 ### Using UML – Perspectives
 Three perspectives in drawing UML diagrams 
