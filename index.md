@@ -115,7 +115,7 @@ It captures the behavior of the protocol. The protocol state machine depicts the
 
 ## Statechart Diagrams
 
-###Notation
+### Notation
 -	A statechart diagram describes the temporal evolution of an object of a given class in response to interactions with other objects inside or outside the system 
 -	An event is a one-way (asynchronous) communication from one object to another
   -	atomic (non-interruptible) 
