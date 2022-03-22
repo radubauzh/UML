@@ -40,7 +40,7 @@ Structure diagrams show the static structure of the system and its parts on diff
 Represents the static structure of the system in terms of classes and their relations. 
 Shows static structure of the designed system, subsystem or component as related classes and interfaces, with their features like their attributes, operations (or methods), constraints and relationships - associations, generalizations, dependencies, etc. They detail how types are defined and structurally related.
 
-![Image](class.png)
+<img src="class.png" alt="class" width="400"/>
 
 **Pros**
 - Useful to represent how types are defined and related 
